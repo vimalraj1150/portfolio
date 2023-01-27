@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.317ac1e7.chunk.css",
+    "main.js": "/static/js/main.817e935d.chunk.js",
+    "main.js.map": "/static/js/main.817e935d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f33c190.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f33c190.js.map",
+    "static/js/2.c3294bc7.chunk.js": "/static/js/2.c3294bc7.chunk.js",
+    "static/js/2.c3294bc7.chunk.js.map": "/static/js/2.c3294bc7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.317ac1e7.chunk.css.map": "/static/css/main.317ac1e7.chunk.css.map",
+    "static/js/2.c3294bc7.chunk.js.LICENSE.txt": "/static/js/2.c3294bc7.chunk.js.LICENSE.txt",
+    "static/media/Webdev.659bed30.jpg": "/static/media/Webdev.659bed30.jpg",
+    "static/media/contact.f535206c.jpg": "/static/media/contact.f535206c.jpg",
+    "static/media/foodorderapp.ea282bea.png": "/static/media/foodorderapp.ea282bea.png",
+    "static/media/pythonimage.91fe66c9.png": "/static/media/pythonimage.91fe66c9.png",
+    "static/media/quotes.4cf3105f.png": "/static/media/quotes.4cf3105f.png",
+    "static/media/taskdo.93ff4b4c.png": "/static/media/taskdo.93ff4b4c.png",
+    "static/media/vimalpic.be1e1395.jpg": "/static/media/vimalpic.be1e1395.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f33c190.js",
+    "static/js/2.c3294bc7.chunk.js",
+    "static/css/main.317ac1e7.chunk.css",
+    "static/js/main.817e935d.chunk.js"
+  ]
+}
