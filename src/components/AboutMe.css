@@ -1,0 +1,253 @@
+.about-me {
+  text-align: center;
+  margin: 3% auto 5%;
+  width: 80%;
+  /* padding: 10% 0; */
+  background-color: #dbdffd;
+  border-radius: 10px;
+}
+
+.aboutme-container > h1 {
+  padding-top: 3%;
+}
+.aboutme-tab h3 {
+  word-spacing: 0.5rem;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+
+.about-nav th {
+  width: 20%;
+}
+.aboutme-tab {
+  text-align: left;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.aboutme-tab h4,
+li {
+  padding-top: 2%;
+}
+
+.aboutme-tab li {
+  list-style: none;
+  font-weight: bold;
+}
+.aboutme-tab li::before {
+  content: "📍";
+  margin-right: 5px;
+}
+.about-content {
+  padding: 5% 10%;
+}
+
+.about-me button {
+  border: none;
+  padding: 5%;
+  width: 100%;
+  color: #242f9b;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: "Poppins";
+  background-color: #dbdffd;
+  /* border-bottom: 1px solid #fff; */
+}
+
+.education {
+  margin-bottom: 3%;
+}
+
+.education h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education h3 span {
+  background-color: #242f9b;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+.education h4 {
+  padding: 0;
+}
+
+.education h4 span {
+  color: #242f9b;
+}
+
+
+.skill {
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill ul li {
+  margin-bottom: 15%;
+}
+
+.progress {
+  width: 200px;
+  height: 10px;
+  border-radius: 5px;
+  border: 1px solid #242f9b;
+  position: relative;
+}
+.progress1:after {
+  content: "\A";
+  position: absolute;
+  background: #242f9b;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  -webkit-animation: filler 2s ease-in-out;
+  -moz-animation: filler 2s ease-in-out;
+  animation: filler 2s ease-in-out;
+}
+
+.progress2:after {
+  content: "\A";
+  position: absolute;
+  background: #242f9b;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  -webkit-animation: filler 2s ease-in-out;
+  -moz-animation: filler 2s ease-in-out;
+  animation: filler 2s ease-in-out;
+}
+.progress3:after {
+  content: "\A";
+  position: absolute;
+  background: #242f9b;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 75%;
+  -webkit-animation: filler 2s ease-in-out;
+  -moz-animation: filler 2s ease-in-out;
+  animation: filler 2s ease-in-out;
+}
+.progress4:after {
+  content: "\A";
+  position: absolute;
+  background: #242f9b;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  -webkit-animation: filler 2s ease-in-out;
+  -moz-animation: filler 2s ease-in-out;
+  animation: filler 2s ease-in-out;
+}
+.progress5:after {
+  content: "\A";
+  position: absolute;
+  background: #242f9b;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 75%;
+  -webkit-animation: filler 2s ease-in-out;
+  -moz-animation: filler 2s ease-in-out;
+  animation: filler 2s ease-in-out;
+}
+
+@-webkit-keyframes filler {
+  0% {
+    width: 0;
+  }
+}
+@-moz-keyframes filler {
+  0% {
+    width: 0;
+  }
+}
+@keyframes filler {
+  0% {
+    width: 0;
+  }
+}
+
+@media (max-width: 786px) {
+  .about-me {
+    text-align: center;
+    margin: 3% auto 5%;
+    width: 90%;
+    background-color: #dbdffd;
+    border-radius: 10px;
+  }
+
+  .aboutme-container > h1 {
+    padding-top: 3%;
+  }
+  .aboutme-tab h3 {
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .about-nav th {
+    width: 22.5%;
+  }
+  .aboutme-tab {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .aboutme-tab h4,
+  li {
+    padding-top: 2%;
+  }
+  .aboutme-tab li {
+    list-style: none;
+  }
+  .aboutme-tab li::before {
+    content: "📍";
+  }
+  .about-content {
+    padding: 5% 3%;
+  }
+
+  .about-me button {
+    border: none;
+    padding: 5%;
+    width: 100%;
+    color: #242f9b;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: "Poppins";
+    background-color: #dbdffd;
+    /* border-bottom: 1px solid #fff; */
+  }
+  .education {
+    text-align: center;
+  }
+
+  .education h3 span {
+    background-color: #242f9b;
+    color: #fff;
+    padding: 0.1px 5px;
+    border-radius: 5px;
+  }
+  .education h3 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skill {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill ul li {
+    margin-bottom: 3%;
+  }
+}

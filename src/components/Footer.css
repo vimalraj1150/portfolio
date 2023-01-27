@@ -1,0 +1,19 @@
+.footer a {
+  margin: 2% 2%;
+  font-size: 35px;
+  color: #242f9b;
+}
+
+.footer {
+  padding: 3%;
+}
+
+.footer h3 {
+  padding: 0 2% 2%;
+}
+
+@media (max-width: 480px) {
+  .footer a {
+    font-size: 20px;
+  }
+}

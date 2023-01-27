@@ -1,0 +1,44 @@
+.certification {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5% 5% 0;
+  padding-bottom: 5%;
+}
+
+.react-certi img {
+  width: 50%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  cursor: pointer;
+}
+
+.certification a {
+  cursor: default;
+  width:50%;
+}
+
+.certification-container {
+  background-color: #242f9b;
+  color: #fff;
+  padding-top: 4%;
+}
+
+@media (max-width: 786px) {
+  .certification {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .react-certi img,
+  .webdev-certi img {
+    width: 80%;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    cursor: pointer;
+  }
+}
